@@ -1,0 +1,18 @@
+body {
+    background-color: #228B22;
+}
+
+.doNotWrap {
+    white-space: nowrap;
+ }  
+
+.maintext{
+    width : 300px;
+    height : 150px;
+    color:#fff;
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -150px;
+    font-size: 50px;
+}
