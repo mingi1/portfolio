@@ -1,5 +1,19 @@
 body {
     background-color: #228B22;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav{
+    background-color:lightgreen;
+    border-radius:0;
+    border:0;
+}
+
+.title{
+    margin:0 auto;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    text-align: center;
 }
 
 .doNotWrap {
@@ -15,4 +29,12 @@ body {
     left: 50%;
     margin: -200px 0 0 -150px;
     font-size: 50px;
+}
+
+.row > div{
+    border: 2px solid black;
+}
+
+.sign{
+    position : relative;
 }
